@@ -143,6 +143,7 @@ button {
 
 ul {
     list-style: disc;
+    list-style-position: inside;
 }
 
 @media only screen and (min-width: 1000px) {
