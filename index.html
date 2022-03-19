@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Wordle Assistant</title>
+    <meta name='view' content='width=device-width, initial-scale=1.0'>
+    <link rel="stylesheet" href="style.css">
+    <script src="words.js"></script>
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <center>
+        <h1>Wordle Assistant</h1>
+        <h2>🟩 = g 🟨 = y ⬜️ = b</h1>
+            <input id='word' placeholder='Enter the 5 Letter Word'>
+            <input id='emojis' placeholder='Enter the Tile Colors'>
+            <button onclick="sort()">sort words</button>
+
+    </center>
+
+    <h2>Words Output:</h2>
+    <div id="output">
+        <p>When you click the 'sort' button, it will sort the 5 letter words for you, and a list of them will appear here.</p>
+        <button class="button2" onclick="viewWords();">view all 5 letter scrabble words</button>
+    </div>
+    <hr>
+    <div class="footer">
+        <center>
+            <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0;" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a
+            <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
+        </center>
+    </div>
+</body>
+
+</html>
