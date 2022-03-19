@@ -23,14 +23,9 @@ function sort() {
             let count = word.match(amtLetters).length;
             if (count > 1) {
                 for (let x = 0; x < 5; x++) {
-                    console.log(x + "letter check" + i);
-                    console.log(x);
-                    console.log(i);
                     if ((word.charAt(x) == letter) && (x != i)) {
-                        console.log(x + "letter check true" + i);
                         if (emojis.charAt(x) == "b") {
                             sortGrey(letter, i);
-                            console.log("sorted grey");
                         }
                     }
                 }
@@ -47,7 +42,7 @@ function sort() {
 
 function viewWords() {
     //from https://joshtronic.com/2022/02/20/how-to-display-a-javascript-array-in-html tysm <3
-    document.getElementById("output").innerHTML = `<ul>${possible.map((item) => `<li>${item}</li>`).join('')}</ul>` + "<b>This is the end of the list. </b>";
+    document.getElementById("output").innerHTML = "<i>Possible amount of words left: " + possible.length + "</i>" + `<ul>${possible.map((item) => "" + `<li>${item}</li>`).join('')}</ul>` + "<b>This is the end of the list. </b>";
 }
 
 
