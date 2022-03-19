@@ -19,9 +19,23 @@ function sort() {
             sortYellow(letter, i);
         }
         if (emoji == "b") {
-            var amtLetters = new RegExp(letter, 'g');
-            var count = word.match(amtLetters).length;
-            if (count == 1) {
+            let amtLetters = new RegExp(letter, 'g');
+            let count = word.match(amtLetters).length;
+            if (count > 1) {
+                for (let x = 0; x < 5; x++) {
+                    console.log(x + "letter check" + i);
+                    console.log(x);
+                    console.log(i);
+                    if ((word.charAt(x) == letter) && (x != i)) {
+                        console.log(x + "letter check true" + i);
+                        if (emojis.charAt(x) == "b") {
+                            sortGrey(letter, i);
+                            console.log("sorted grey");
+                        }
+                    }
+                }
+            } else {
+                console.log("sorted grey");
                 sortGrey(letter, i);
             }
         }
