@@ -1,6 +1,6 @@
 function sort() {
-    let word = document.getElementById("word").value;
-    let emojis = document.getElementById("emojis").value;
+    let word = document.getElementById("word").value.toLowerCase();
+    let emojis = document.getElementById("emojis").value.toLowerCase();
 
 
     for (let i = 0; i < 5; i++) {
