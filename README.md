@@ -4,3 +4,6 @@ I made a little piece of code a while ago in JavaScript to help me with the dail
 So how do you use the Wordle Assistant? First, go to https://rainbowcoding.github.io/wordleAssistant and type in the first word you typed on Wordle. Then, type in the corresponding tile colors, g for green, y for yellow, and b for blank/grey. Then click the "sort words" button and you'll see a list of words appear. These are the remaining words possible that the wordle word could be (words are from the scrabble dictionary). Then, you can repeat this process of typing your words + their hints in the text boxes, just make sure to click "sort" each time to sort the words more. If you made a mistake or started another wordle, reload the page to reset the word list.
 
 Have fun!
+
+
+*This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/4.0/ or send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.*
